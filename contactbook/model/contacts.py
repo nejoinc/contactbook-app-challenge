@@ -10,3 +10,4 @@ class ContactBook:
         self.contacts[new_object.phone] = new_object
 
     def delete_contact(self, phone: str):
+        del self.contacts[phone]
